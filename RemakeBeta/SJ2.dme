@@ -1,0 +1,88 @@
+// DM Environment file for SJ2.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+/*
+FILE: basecamp.dm
+DIR: Lib
+MAP_ICON_TYPE: 0
+PACKAGE_RSC_NAME: C:\Games\Byond\Byond Code Files\Slime Journey 2 Unrevised\SJ2_rsc.zip
+PACKAGE_DME_DEMO: 
+PACKAGE_DMS_CLEANCHECK: OFF
+PACKAGE_DME_CLEANCHECK: OFF
+PACKAGE_RSC_CLEANCHECK: OFF
+PACKAGE_DMS_EXECHECK: OFF
+PACKAGE_DMB_EXECHECK: OFF
+PACKAGE_DMB_HUB: 
+PACKAGE_TYPE: 0
+PACKAGE_DMB_CLEANCHECK: OFF
+PACKAGE_DME_START: 
+PACKAGE_DME_NAME: C:\Games\Byond\Byond Code Files\Slime Journey 2 Unrevised\SJ2_src.zip
+PACKAGE_DME_INFO: 
+PACKAGE_DMS_URL: 
+PACKAGE_DMS_RSCCHECK: OFF
+PACKAGE_DMS_NAME: C:\Games\Byond\Byond Code Files\Slime Journey 2 Unrevised\SJ2_link.zip
+PACKAGE_DMB_NAME: C:\Games\Byond\Byond Code Files\Slime Journey 2 Unrevised\SJ2.zip
+PACKAGE_DMS_INFO: 
+PACKAGE_DMB_INFO: 
+AUTO_FILE_DIR: ON
+*/
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "backup"
+#define FILE_DIR "slime icons"
+#define FILE_DIR "Slime Pics"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "Admin.dm"
+#include "AssassinSkills.dm"
+#include "basecamp.dm"
+#include "Battle.dm"
+#include "characterhandling.dm"
+#include "Charcreate.dm"
+#include "chests.dm"
+#include "dolls.dm"
+#include "Food.dm"
+#include "Guild.dm"
+#include "house.dm"
+#include "implementation.dm"
+#include "Items.dm"
+#include "JobLevel.dm"
+#include "KeyItems.dm"
+#include "MageSkills.dm"
+#include "Main.dm"
+#include "MiscCodes.dm"
+#include "monsters.dm"
+#include "MonsterSpells.dm"
+#include "newbzone.dm"
+#include "NormalLevel.dm"
+#include "People.dm"
+#include "Pickattack.dm"
+#include "PriestSkills.dm"
+#include "PVP.dm"
+#include "PVPPickattack.dm"
+#include "PVPSkills.dm"
+#include "PVPSummonSkills.dm"
+#include "QuestTurfs.dm"
+#include "RetrieverGuildPpl.dm"
+#include "Shops.dm"
+#include "Statpanel.dm"
+#include "storage.dm"
+#include "Summon.dm"
+#include "SummonLvl.dm"
+#include "Summons.dm"
+#include "turfs.dm"
+#include "vars.dm"
+#include "verbs.dm"
+#include "verbshouse.dm"
+#include "WarriorSkills.dm"
+#include "Zenithian Temple.dm"
+#include "World.dmp"
+// END_INCLUDE
+

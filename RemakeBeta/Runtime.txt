@@ -1,0 +1,129 @@
+Sun Jan 08 10:38:00 2006
+runtime error: cannot append to list
+verb name: Check (/obj/Storage_Chest/verb/Check)
+  source file: storage.dm,49
+runtime error: cannot remove from list
+proc name: Check (/obj/Storage_Chest/verb/Check)
+  source file: storage.dm,38
+BYOND(344.887) Security: certificate for Sarg338 failed (1,1).
+Sun Jan 08 15:22:08 2006
+Blu-Test-Polantaris modified Darknessblades's mpd variable from 4<font size=1> (EAST or MOB_LAYER)</font> to 5<font size=1> (NORTHEAST or FLOAT_LAYER)</font>.
+Blu-Test-Polantaris modified Darknessblades's glare variable from 3<font size=1> (OBJ_LAYER)</font> to 6<font size=1> (SOUTHEAST)</font>.
+runtime error: undefined proc or verb /mob/Newchar/origChooseCharacter().
+
+proc name: Click (/turf/Begin/N/Click)
+  source file: turfs.dm,46
+  usr: Hiyruu (/mob/Newchar)
+  src: N (146,146,1) (/turf/Begin/N)
+  call stack:
+N (146,146,1) (/turf/Begin/N): Click(N (146,146,1) (/turf/Begin/N))
+runtime error: undefined proc or verb /mob/Newchar/origChooseCharacter().
+
+proc name: Click (/turf/Begin/N/Click)
+  source file: turfs.dm,46
+  usr: Hiyruu (/mob/Newchar)
+  src: N (146,146,1) (/turf/Begin/N)
+  call stack:
+N (146,146,1) (/turf/Begin/N): Click(N (146,146,1) (/turf/Begin/N))
+Mon Jan 09 19:02:19 2006
+runtime error: cannot append to list
+verb name: Check (/obj/Storage_Chest/verb/Check)
+  source file: storage.dm,49
+  usr: Katrinai (/mob/Newchar)
+  src: Storage Chest (/obj/Storage_Chest)
+  call stack:
+Storage Chest (/obj/Storage_Chest): Check()
+Storage Chest (/obj/Storage_Chest): Click( (26,34,1) (/turf/bluecobble))
+Mon Jan 09 23:49:30 2006
+runtime error: type mismatch
+proc name: jobexpreqfind (/mob/proc/jobexpreqfind)
+  source file: JobLevel.dm,120
+  usr: Gadwin (/mob/Newchar)
+  src: Gadwin (/mob/Newchar)
+  call stack:
+Gadwin (/mob/Newchar): jobexpreqfind()
+Gadwin (/mob/Newchar): checkjoblevel(Gadwin (/mob/Newchar))
+Gadwin (/mob/Newchar): MasterBattle(null, /list (/list))
+Gadwin (/mob/Newchar): MasterBattle(null, /list (/list))
+Sat Jan 14 18:15:26 2006
+runtime error: Cannot modify null.pvping.
+proc name: Del (/client/Del)
+  source file: Main.dm,399
+  usr: null
+  src: Guest (/client)
+  call stack:
+Guest (/client): Del()
+Guest (/client): Del()
+CheckBan(null)
+Login()
+Login()
+CreateCharacter()
+Login()
+Sat Jan 14 23:14:35 2006
+runtime error: undefined variable /mob/monster/Area3C/EvilHuman1/var/len
+proc name: DoomPort1 (/mob/monster/DoomPort1)
+  source file: MonsterSpells.dm,1952
+  usr: Min-Deathstar175 (/mob/Newchar)
+  src: Evil Human-A (/mob/monster/Area3C/EvilHuman1)
+  call stack:
+Evil Human-A (/mob/monster/Area3C/EvilHuman1): DoomPort1(Zion the Master of Slimy Death (/mob/summons/King_Slime_Summon), Evil Human (/mob/monster/Area3C/EvilHuman1), Min-Deathstar175 (/mob/Newchar))
+Evil Human-A (/mob/monster/Area3C/EvilHuman1): Spell(Min-Deathstar175 (/mob/Newchar), Evil Human (/mob/monster/Area3C/EvilHuman1), Zion the Master of Slimy Death (/mob/summons/King_Slime_Summon))
+Evil Human-A (/mob/monster/Area3C/EvilHuman1): Battle(Min-Deathstar175 (/mob/Newchar), Evil Human (/mob/monster/Area3C/EvilHuman1))
+Min-Deathstar175 (/mob/Newchar): SuperConsentratedAttack(Evil Human-A (/mob/monster/Area3C/EvilHuman1), Evil Human (/mob/monster/Area3C/EvilHuman1))
+Min-Deathstar175 (/mob/Newchar): PickSpell(Evil Human (/mob/monster/Area3C/EvilHuman1))
+Min-Deathstar175 (/mob/Newchar): Spell(Evil Human (/mob/monster/Area3C/EvilHuman1))
+Min-Deathstar175 (/mob/Newchar): Battle(Evil Human (/mob/monster/Area3C/EvilHuman1))
+Min-Deathstar175 (/mob/Newchar): MasterBattle(Evil Human (/mob/monster/Area3C/EvilHuman1), /list (/list))
+Min-Deathstar175 (/mob/Newchar): Bump(Evil Human (/mob/monster/Area3C/EvilHuman1))
+runtime error: undefined variable /mob/monster/Area3C/EvilHuman1/var/len
+proc name: DoomPort1 (/mob/monster/DoomPort1)
+  source file: MonsterSpells.dm,1952
+  usr: Min-Deathstar175 (/mob/Newchar)
+  src: Evil Human-C (/mob/monster/Area3C/EvilHuman1)
+  call stack:
+Evil Human-C (/mob/monster/Area3C/EvilHuman1): DoomPort1(Min-Deathstar175 (/mob/Newchar), Evil Human (/mob/monster/Area3C/EvilHuman1), Min-Deathstar175 (/mob/Newchar))
+Evil Human-C (/mob/monster/Area3C/EvilHuman1): Spell(Min-Deathstar175 (/mob/Newchar), Evil Human (/mob/monster/Area3C/EvilHuman1), Zion the Master of Slimy Death (/mob/summons/King_Slime_Summon))
+Evil Human-C (/mob/monster/Area3C/EvilHuman1): Battle(Min-Deathstar175 (/mob/Newchar), Evil Human (/mob/monster/Area3C/EvilHuman1))
+Min-Deathstar175 (/mob/Newchar): SuperConsentratedAttack(Evil Human-A (/mob/monster/Area3C/EvilHuman1), Evil Human (/mob/monster/Area3C/EvilHuman1))
+Min-Deathstar175 (/mob/Newchar): PickSpell(Evil Human (/mob/monster/Area3C/EvilHuman1))
+Min-Deathstar175 (/mob/Newchar): Spell(Evil Human (/mob/monster/Area3C/EvilHuman1))
+Min-Deathstar175 (/mob/Newchar): Battle(Evil Human (/mob/monster/Area3C/EvilHuman1))
+Min-Deathstar175 (/mob/Newchar): MasterBattle(Evil Human (/mob/monster/Area3C/EvilHuman1), /list (/list))
+Min-Deathstar175 (/mob/Newchar): Bump(Evil Human (/mob/monster/Area3C/EvilHuman1))
+Sun Jan 15 03:54:22 2006
+runtime error: Cannot read null.agility
+proc name: MasterBattle (/mob/Newchar/MasterBattle)
+  source file: Battle.dm,186
+  usr: Adam2005 (/mob/Newchar)
+  src: Adam2005 (/mob/Newchar)
+  call stack:
+Adam2005 (/mob/Newchar): MasterBattle(null, /list (/list))
+Adam2005 (/mob/Newchar): MasterBattle(null, /list (/list))
+Sun Jan 15 13:45:37 2006
+runtime error: Cannot modify null.pvping.
+proc name: Del (/client/Del)
+  source file: Main.dm,399
+  usr: null
+  src: Rennyn (/client)
+  call stack:
+Rennyn (/client): Del()
+Rennyn (/client): Del()
+ChooseCharacterResult("Leave the Slime Universe!")
+ChooseCharacterMenu(/list (/list))
+ChooseCharacterMenu(/list (/list))
+origChooseCharacter()
+E (143,142,1) (/turf/Begin/E): Click(E (143,142,1) (/turf/Begin/E))
+Mon Jan 16 14:46:01 2006
+runtime error: Cannot modify null.pvping.
+proc name: Del (/client/Del)
+  source file: Main.dm,399
+  usr: null
+  src: Sorune (/client)
+  call stack:
+Sorune (/client): Del()
+Sorune (/client): Del()
+ChooseCharacterResult("Leave the Slime Universe!")
+ChooseCharacterMenu(/list (/list))
+ChooseCharacterMenu(/list (/list))
+origChooseCharacter()
+G (144,142,1) (/turf/Begin/G): Click(G (144,142,1) (/turf/Begin/G))
