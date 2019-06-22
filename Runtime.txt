@@ -1,0 +1,138 @@
+runtime error: bad client
+proc name: nameit (/mob/players/creation/proc/nameit)
+  source file: charcreate.dm,12
+  usr: the creation (/mob/players/creation)
+  src: the creation (/mob/players/creation)
+  call stack:
+the creation (/mob/players/creation): nameit()
+the creation (/mob/players/creation): New()
+Polantaris (/client): New()
+runtime error: bad client
+proc name: nameit (/mob/players/creation/proc/nameit)
+  source file: charcreate.dm,12
+  usr: the creation (/mob/players/creation)
+  src: the creation (/mob/players/creation)
+  call stack:
+the creation (/mob/players/creation): nameit()
+the creation (/mob/players/creation): New()
+Polantaris (/client): news(/list (/list))
+Polantaris (/client): CharacterSelectionSetup(Polantaris (/client))
+Polantaris (/client): delete(/list (/list))
+Polantaris (/client): CharacterSelectionSetup(Polantaris (/client))
+Polantaris (/mob/players/creation): Login()
+runtime error: bad client
+proc name: nameit (/mob/players/creation/proc/nameit)
+  source file: charcreate.dm,12
+  usr: the creation (/mob/players/creation)
+  src: the creation (/mob/players/creation)
+  call stack:
+the creation (/mob/players/creation): nameit()
+the creation (/mob/players/creation): New()
+Polantaris (/client): news(/list (/list))
+Polantaris (/client): CharacterSelectionSetup(Polantaris (/client))
+the creation (/mob/players/creation): Login()
+runtime error: bad client
+proc name: nameit (/mob/players/creation/proc/nameit)
+  source file: charcreate.dm,12
+  usr: the creation (/mob/players/creation)
+  src: the creation (/mob/players/creation)
+  call stack:
+the creation (/mob/players/creation): nameit()
+the creation (/mob/players/creation): New(null)
+Polantaris (/client): load me("Adventure Log 1")
+Polantaris (/client): continues(/list (/list))
+Polantaris (/client): CharacterSelectionSetup(Polantaris (/client))
+the creation (/mob/players/creation): Login()
+runtime error: bad client
+proc name: nameit (/mob/players/creation/proc/nameit)
+  source file: charcreate.dm,12
+  usr: the creation (/mob/players/creation)
+  src: the creation (/mob/players/creation)
+  call stack:
+the creation (/mob/players/creation): nameit()
+the creation (/mob/players/creation): New()
+Polantaris (/client): news(/list (/list))
+Polantaris (/client): CharacterSelectionSetup(Polantaris (/client))
+the creation (/mob/players/creation): Login()
+runtime error: bad client
+proc name: nameit (/mob/players/creation/proc/nameit)
+  source file: charcreate.dm,12
+  usr: the creation (/mob/players/creation)
+  src: the creation (/mob/players/creation)
+  call stack:
+the creation (/mob/players/creation): nameit()
+the creation (/mob/players/creation): New(null)
+Polantaris (/client): load me("Adventure Log 1")
+Polantaris (/client): continues(/list (/list))
+Polantaris (/client): CharacterSelectionSetup(Polantaris (/client))
+the creation (/mob/players/creation): Login()
+runtime error: bad client
+proc name: nameit (/mob/players/creation/proc/nameit)
+  source file: charcreate.dm,12
+  usr: the creation (/mob/players/creation)
+  src: the creation (/mob/players/creation)
+  call stack:
+the creation (/mob/players/creation): nameit()
+the creation (/mob/players/creation): New()
+Polantaris (/client): New()
+runtime error: bad client
+proc name: nameit (/mob/players/creation/proc/nameit)
+  source file: charcreate.dm,12
+  usr: the creation (/mob/players/creation)
+  src: the creation (/mob/players/creation)
+  call stack:
+the creation (/mob/players/creation): nameit()
+the creation (/mob/players/creation): New(null)
+Polantaris (/client): load me("Adventure Log 1")
+Polantaris (/client): continues(/list (/list))
+Polantaris (/client): CharacterSelectionSetup(Polantaris (/client))
+Polantaris (/mob/players/creation): Login()
+runtime error: bad client
+proc name: nameit (/mob/players/creation/proc/nameit)
+  source file: charcreate.dm,12
+  usr: the creation (/mob/players/creation)
+  src: the creation (/mob/players/creation)
+  call stack:
+the creation (/mob/players/creation): nameit()
+the creation (/mob/players/creation): New()
+Polantaris (/client): news(/list (/list))
+Polantaris (/client): CharacterSelectionSetup(Polantaris (/client))
+the creation (/mob/players/creation): Login()
+runtime error: Cannot read null.key
+proc name: get logs (/proc/get_logs)
+  source file: saving.dm,81
+  usr: Polantaris (/mob/players/creation)
+  src: null
+  call stack:
+get logs(null)
+CharacterSelectionSetup(null)
+Polantaris (/mob/players/creation): Login()
+Polantaris (/client): New()
+runtime error: Cannot read null.len
+proc name: CharacterSelectionSetup (/client/proc/CharacterSelectionSetup)
+  source file: saving.dm,36
+  usr: Polantaris (/mob/players/creation)
+  src: null
+  call stack:
+CharacterSelectionSetup(null)
+Polantaris (/mob/players/creation): Login()
+Polantaris (/client): New()
+runtime error: Cannot read null.key
+proc name: get logs (/proc/get_logs)
+  source file: saving.dm,81
+  usr: Polantaris (/mob/players/creation)
+  src: null
+  call stack:
+get logs(null)
+CharacterSelectionSetup(null)
+Polantaris (/mob/players/creation): Login()
+Polantaris (/client): New()
+runtime error: Cannot read null.len
+proc name: CharacterSelectionSetup (/client/proc/CharacterSelectionSetup)
+  source file: saving.dm,36
+  usr: Polantaris (/mob/players/creation)
+  src: null
+  call stack:
+CharacterSelectionSetup(null)
+Polantaris (/mob/players/creation): Login()
+Polantaris (/client): New()

@@ -1,0 +1,50 @@
+// DM Environment file for Slime Journey 2.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "backup"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "admin.dm"
+#include "areatext.dm"
+#include "arrow.dm"
+#include "ban.dm"
+#include "battle.dm"
+#include "battleinfo.dm"
+#include "charcreate.dm"
+#include "doors.dm"
+#include "errors.dm"
+#include "guilds.dm"
+#include "house.dm"
+#include "items-normal.dm"
+#include "items-quest.dm"
+#include "letters.dm"
+#include "level.dm"
+#include "main.dm"
+#include "mareas.dm"
+#include "medal.dm"
+#include "monsters.dm"
+#include "party.dm"
+#include "saving.dm"
+#include "shops.dm"
+#include "spellsbattle.dm"
+#include "spellsfield.dm"
+#include "spellsmobbattle.dm"
+#include "stat.dm"
+#include "textinfo.dm"
+#include "town.dm"
+#include "turfs.dm"
+#include "vars.dm"
+#include "verbs.dm"
+#include "basicinterface.dmf"
+#include "world.dmp"
+// END_INCLUDE
+

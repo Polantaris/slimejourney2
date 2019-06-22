@@ -1,0 +1,250 @@
+macro "macro"
+	elem 
+		name = "CENTER+REP"
+		command = ".center"
+		is-disabled = false
+	elem 
+		name = "RETURN+REP"
+		command = ".center"
+		is-disabled = false
+	elem 
+		name = "NORTHEAST+REP"
+		command = ".northeast"
+		is-disabled = false
+	elem 
+		name = "SOUTHEAST+REP"
+		command = ".southeast"
+		is-disabled = false
+	elem 
+		name = "SOUTHWEST+REP"
+		command = ".southwest"
+		is-disabled = false
+	elem 
+		name = "NORTHWEST+REP"
+		command = ".northwest"
+		is-disabled = false
+	elem 
+		name = "WEST+REP"
+		command = ".west"
+		is-disabled = false
+	elem 
+		name = "NORTH+REP"
+		command = ".north"
+		is-disabled = false
+	elem 
+		name = "EAST+REP"
+		command = ".east"
+		is-disabled = false
+	elem 
+		name = "SOUTH+REP"
+		command = ".south"
+		is-disabled = false
+	elem 
+		name = "A+REP"
+		command = ".west"
+		is-disabled = false
+	elem 
+		name = "D+REP"
+		command = ".east"
+		is-disabled = false
+	elem 
+		name = "S+REP"
+		command = ".south"
+		is-disabled = false
+	elem 
+		name = "W+REP"
+		command = ".north"
+		is-disabled = false
+
+
+menu "menu"
+	elem 
+		name = "File"
+		command = ""
+		category = ""
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "Quit"
+		command = ".quit"
+		category = "File"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "Game"
+		command = ""
+		category = ""
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "Logout"
+		command = ".logout"
+		category = "Game"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+
+
+window "window1"
+	elem "window1"
+		type = MAIN
+		pos = 281,0
+		size = 800x600
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-maximized"
+		title = "Slime Journey II"
+		titlebar = true
+		statusbar = true
+		can-close = true
+		can-minimize = true
+		can-resize = true
+		is-pane = false
+		is-maximized = false
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = "macro"
+		menu = "menu"
+	elem "input1"
+		type = INPUT
+		pos = 0,576
+		size = 800x24
+		anchor1 = 0,96
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		text-color = #008080
+		background-color = #000000
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = sunken
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		command = ""
+		multi-line = false
+		is-password = false
+	elem "map1"
+		type = MAP
+		pos = 200,0
+		size = 384x432
+		anchor1 = 25,0
+		anchor2 = 73,72
+		font-family = ""
+		font-size = 0
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = true
+		right-click = false
+		saved-params = "icon-size"
+		icon-size = 0
+		text-mode = false
+		on-show = ""
+		on-hide = ""
+	elem "statbrowse"
+		type = BROWSER
+		pos = 0,0
+		size = 200x432
+		anchor1 = 0,0
+		anchor2 = 29,72
+		font-family = ""
+		font-size = 0
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		show-history = false
+		show-url = false
+		auto-format = true
+		use-title = false
+		on-show = ""
+		on-hide = ""
+	elem "output1"
+		type = OUTPUT
+		pos = 0,432
+		size = 800x144
+		anchor1 = 0,72
+		anchor2 = 100,96
+		font-family = ""
+		font-size = 0
+		text-color = #000000
+		background-color = #ffffff
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "max-lines"
+		link-color = #0000ff
+		visited-color = #ff00ff
+		style = ""
+		enable-http-images = false
+		max-lines = 1000
+	elem "info1"
+		type = INFO
+		pos = 584,0
+		size = 216x432
+		anchor1 = 73,0
+		anchor2 = 100,72
+		font-family = ""
+		font-size = 0
+		text-color = #008080
+		background-color = #000000
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = none
+		drop-zone = true
+		right-click = false
+		saved-params = ""
+		highlight-color = #00ff00
+		tab-text-color = #00ff40
+		tab-background-color = #808080
+		tab-font-family = ""
+		tab-font-size = 0
+		allow-html = true
+		multi-line = true
+		on-show = ""
+		on-hide = ""
+
